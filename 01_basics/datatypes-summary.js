@@ -15,6 +15,9 @@
 // const bigNumber = 454655656565656565656n
 
 
+// ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
 
 // Non Primitive (Reference)
 // Array, Objects, Functions
@@ -36,3 +39,25 @@
 
 // console.log(typeof myFunction)
 
+
+
+// +++++++++++++++++++++++++++++++++++++++++++++++++
+// Stack (Primitive) , Heap(non-primitive)
+
+// let myYoutubeName = "harrytech"
+// let anotherName = myYoutubeName
+// anotherName = "TechRelm"
+
+// console.log(anotherName);
+// console.log(myYoutubeName);
+
+// let userOne = {
+//     email: "user@gmsi.com",
+//     upi: "user@abl"
+// }
+// let userTwo = userOne
+
+// userTwo.email = "harry@kww.com"
+
+// console.log(userOne)
+// console.log(userTwo)
