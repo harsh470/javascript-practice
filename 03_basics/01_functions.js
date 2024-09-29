@@ -27,9 +27,9 @@ function loginUserMessage(username){
 // console.log(loginUserMessage())
 
 
-function loginUser(username = "vikas"){
+function loginUser(username ="vikas"){
     if(username === undefined){    //(!username)
-        console.log("please enter a username")
+        console.log("please enter a username");
         return
     }
     return `${username} just logged in`
